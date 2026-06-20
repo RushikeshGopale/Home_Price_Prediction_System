@@ -1,0 +1,40 @@
+/* Form container */
+.form-container{
+max-width:700px;
+margin:60px auto;
+padding:30px;
+background:#2c2f33;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* Input + select spacing */
+.form-group{
+margin-bottom:20px;
+}
+
+/* Inputs + dropdowns */
+.form-control{
+height:45px;
+border-radius:8px;
+font-size:16px;
+}
+
+/* Select fix */
+select.form-control{
+height:45px;
+}
+
+/* Button */
+.btn-submit{
+height:45px;
+font-size:18px;
+border-radius:8px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+.form-container{
+margin:20px;
+}
+}
